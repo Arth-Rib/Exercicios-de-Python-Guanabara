@@ -7,7 +7,7 @@ elif i <=14:
     print('Atleta infantil')
 elif i <=19:
     print('Atleta junior')
-elif i <=20:
+elif i <=25:
     print('Atleta senior')
-elif i > 20:
+elif i > 25:
     print('Atleta master')
