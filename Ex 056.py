@@ -3,7 +3,7 @@ nv = 0
 soma = 0
 m20 = 0
 for c in range(1, 5):
-    n = str(input('Insira o nome da pessoa:'))
+    n = str(input('Insira o nome da {}ª pessoa:'.format(c)))
     i = int(input('Insira a idade:'))
     print('[F] para feminino\n[M] para masculino')
     s = str(input('Insira o sexo:')).upper()

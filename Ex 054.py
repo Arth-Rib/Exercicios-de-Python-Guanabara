@@ -1,7 +1,7 @@
 import datetime
 maior = 0
 menor = 0
-for c in range(1,7):
+for c in range(1,8):
     a = int(input('Digite o ano de nascimento: '))
     if 18 <= datetime.date.today().year - a:
         maior += 1
