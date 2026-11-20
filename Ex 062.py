@@ -16,7 +16,6 @@ while c < 10:
         c -= s
     if s == 0:
         c = 10
+    if s > 0:
+        lista = []
 print('FIM')
-
-#Solução do Curso
-''''''
